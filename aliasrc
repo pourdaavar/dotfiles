@@ -1,0 +1,90 @@
+# clear
+alias c='clear'
+alias clwer='clear'
+alias cc='clear'
+alias cear='clear'
+alias cler='clear'
+alias clea='clear'
+alias clar='clear'
+alias clewar='clear'
+alias lear='clear'
+alias celra='clear'
+alias clera='clear'
+alias claer='clear'
+alias celar='clear'
+alias clare='clear'
+
+
+# config files
+alias gitrc='vim $XDG_CONFIG_HOME/.gitconfig'
+alias zalias='vim $XDG_CONFIG_HOME/aliasrc'
+alias fishrc='vim $XDG_CONFIG_HOME/fish/config.fish'
+alias npmrc='vim $XDG_CONFIG_HOME/npm/npmrc'
+alias vimrc='vim $XDG_CONFIG_HOME/.vimrc'
+alias vimplug='vim $XDG_CONFIG_HOME/.vim/partials/plugins.vim'
+alias alacrittyrc='vim $XDG_CONFIG_HOME/alacritty/alacritty.yml'
+
+
+# lds
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
+
+# npm
+alias npmls='npm ls --depth 0'
+alias npmr='npm remove'
+alias npmi='npm install'
+alias npmg='npm install -g'
+alias npms='npm start'
+alias npmb='npm run build'
+alias npmt='npm test'
+alias npmd='npm install -D'
+alias npmo='npm outdated'
+alias npmp='npm publish'
+alias npmv='npm -v'
+
+alias renpm='rm -rf node_modules && npm i'
+
+# Docker
+alias docker='sudo docker'
+
+# Git
+alias clone='git clone'
+alias gs='git status -s'
+
+alias gb='git branch -v'
+alias gbr='git branch --remote'
+alias gba='git branch -a'
+alias gbd='git branch -d'
+alias gbD='git branch -D'
+
+alias gc='git commit -v'
+alias 'gca'='git commit --amend'
+alias 'gc!'='git commit -v --amend --no-edit'
+alias gcam='git commit -a -m'
+alias gcm='git commit -m'
+
+alias pull='git pull'
+alias push='git push'
+
+alias gcount='git shortlog -sn'
+alias gl='git log --oneline --decorate'
+alias glog='git log --oneline --color --decorate --graph --all | emojify | less -r'
+alias gloga="git log --graph --color --pretty=format:'%C(yellow)%h%Creset %C(bold blue)%an%C(reset) - %s - %Creset %C(yellow)%d%Creset %C(green)(%cr)%Creset' --abbrev-commit --date=relative --all | emojify | less -r"
+alias gls='git log --stat'
+alias glsg='git log --graph --decorate --all'
+
+alias gr='git reset'
+alias gra='git reset .'
+alias grh='git reset HEAD'
+alias grhh='git reset HEAD --hard'
+
+alias grv='git remote -v'
+
+
+alias grba='git rebase --abort'
+alias grbc='git rebase --continue'
+alias grbs='git rebase --skip'
+alias grbi='git rebase -i'
