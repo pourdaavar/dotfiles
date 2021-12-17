@@ -1,0 +1,43 @@
+[user]
+	email = h.pourdavar@gmail.com
+	name = hoseinprd <h.pourdavar@gmail.com>
+
+[color]
+	ui = auto
+
+[color "branch"]
+	current = yellow reverse
+	local   = yellow
+	remote  = green
+
+[color "diff"]
+	meta = yellow
+	frag = magenta
+	old  = red
+	new  = green
+	
+[color "status"]
+	  added     = yellow
+	  changed   = green
+	  untracked = cyan
+
+[core]
+    pager = delta
+    
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    features = side-by-side line-numbers decorations
+    whitespace-error-style = 22 reverse
+
+[delta "decorations"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow ul
+    file-decoration-style = none
+
+[init]
+	defaultBranch = main
+
+[github]
+    user = hoseinprd
