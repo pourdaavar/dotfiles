@@ -1,0 +1,54 @@
+import:
+  - /home/hossein/.config/alacritty/dracula.yml
+
+# Window Customization
+
+window:
+  dimensions:
+    columns: 60
+    lines: 20
+  padding:
+    x: 35
+    y: 35
+  decorations: none #Still won't show in a window manger, but will in a desktop environment
+scrolling:
+  history: 10000
+  multiplier: 3
+background_opacity: .85
+window.dynamic_title: true
+
+# Font Customization
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+  bold:
+    family: JetBrains Mono
+    style: Bold
+  italic:
+    family: JetBrains Mono
+    style: Italic
+  size: 13
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+  use_thin_strokes: false
+  debug:
+    persistent_logging: false
+draw_bold_text_with_bright_colors: true
+
+cursor:
+  style:
+    shape: Beam
+    blinking: off
+    blink-interval: 750
+    unfocused_hollow: true
+
+key_bindings:
+  - { key: N, mods: Control, action: SpawnNewInstance }
+  - { key: Q, mods: Alt, action: Quit }
+  - { key: W, mods: Alt, action: Minimize }
+  - { key: F, mods: Alt, action: ToggleFullscreen }
