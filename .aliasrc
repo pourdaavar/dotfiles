@@ -16,12 +16,12 @@ alias clare='clear'
 
 
 # config files
-alias gitrc='vim $XDG_CONFIG_HOME/.gitconfig'
-alias zalias='vim $XDG_CONFIG_HOME/.aliasrc'
+alias gitrc='vim ~/.gitconfig'
+alias zalias='vim ~/.aliasrc'
 alias fishrc='vim $XDG_CONFIG_HOME/fish/config.fish'
-alias npmrc='vim $XDG_CONFIG_HOME/npm/npmrc'
-alias vimrc='vim $XDG_CONFIG_HOME/.vimrc'
-alias vimplug='vim $XDG_CONFIG_HOME/.vim/partials/plugins.vim'
+alias npmrc='vim ~/.npmrc'
+alias vimrc='vim ~/.vimrc'
+alias vimplug='vim ~/.vim/partials/plugins.vim'
 alias alacrittyrc='vim $XDG_CONFIG_HOME/alacritty/alacritty.yml'
 
 
