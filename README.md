@@ -6,22 +6,14 @@
 - [fzf](https://github.com/junegunn/fzf) - 🌸 A command-line fuzzy finder
 - [lsd](https://github.com/Peltoche/lsd) - The next gen ls command
 
-### Guake
-
-#### save settings
-
-```
-guake --save-preferences ~/$PATH/guake_prefs
-```
-
-#### load settings
-
-```
-guake --restore-preferences ~/$PATH/guake_prefs
-```
-
 ### starship
 
+#### Install starship
+
+```sh
+sh -c (curl -fsSL https://starship.rs/install.sh)
 ```
+
+```sh
 ~/.config/starship.toml
 ```
