@@ -8,25 +8,25 @@ window:
     columns: 60
     lines: 20
   padding:
-    x: 35
-    y: 35
-  decorations: none #Still won't show in a window manger, but will in a desktop environment
+    x: 20
+    y: 20
+  decorations: none
 scrolling:
   history: 10000
   multiplier: 3
-background_opacity: .85
+background_opacity: 0.95
 window.dynamic_title: true
 
 # Font Customization
 font:
   normal:
-    family: JetBrains Mono
+    family: JetBrainsMono Nerd Font Mono
     style: Regular
   bold:
-    family: JetBrains Mono
+    family: JetBrainsMono Nerd Font Mono
     style: Bold
   italic:
-    family: JetBrains Mono
+    family: JetBrainsMono Nerd Font Mono
     style: Italic
   size: 13
   offset:
