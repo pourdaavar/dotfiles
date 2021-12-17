@@ -3,23 +3,26 @@
 	name = Hossein Pourdavar
 
 [color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
 	ui = auto
-
 [color "branch"]
-	current = yellow reverse
-	local   = yellow
-	remote  = green
-
+	current = green bold
+	local = green
+	remote = red bold
 [color "diff"]
-	meta = yellow
-	frag = magenta
-	old  = red
-	new  = green
-	
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
 [color "status"]
-	  added     = yellow
-	  changed   = green
-	  untracked = cyan
+	added = cyan bold
+	changed = yellow bold
+	untracked = red bold
+[color "sh"]
+	branch = yellow
 
 [core]
     pager = delta
