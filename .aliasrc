@@ -44,6 +44,7 @@ alias npmd='npm install -D'
 alias npmo='npm outdated'
 alias npmp='npm publish'
 alias npmv='npm -v'
+alias npmrd='npm run dev'
 
 alias renpm='rm -rf node_modules && npm i'
 
